@@ -1,0 +1,31 @@
+.container {
+    background-color: palevioletred;
+    display:flex;
+
+}
+
+.item {
+    width: 250px;
+    background-color: #c4c4c4;
+    margin:10px;
+    border: 3px solid black;
+   
+}
+
+.item-1 {
+    min-height:100px;
+    flex-shrink:0;
+    align-self: flex-start;
+}
+
+.item-2{
+    min-height:150px;
+    flex-grow:2;
+    flex-basis:0;
+}
+
+.item-3 {
+    min-height:200px;
+    flex-grow:1;
+    flex-basis:0;
+}
